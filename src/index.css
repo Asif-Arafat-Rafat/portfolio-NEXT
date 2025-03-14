@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+    --text-color:black;
+  --color-primary: #1d4ed8; /* Light mode primary color (Blue) */
+  --color-background: #ffffff; /* Light mode background */
+}
+
+/* Dark Mode */
+.dark {
+  --text-color:white;
+  --color-primary: #facc15; /* Dark mode primary color (Yellow) */
+  --color-background: #1e293b; /* Dark mode background */
+}
+
+/* Red Theme */
+.red {
+    --text-color:blue;
+    --color-primary: red; /* Dark mode primary color (Yellow) */
+    --color-background: yellow; /* Dark mode background */
+  }
