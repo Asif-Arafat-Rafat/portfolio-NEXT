@@ -1,21 +1,18 @@
 @import "tailwindcss";
 
 :root {
-    --text-color:black;
-  --color-primary: #1d4ed8; /* Light mode primary color (Blue) */
-  --color-background: #ffffff; /* Light mode background */
+    --text-color:1E3A8A;
+    --color-primary: #3B82F6;  
+    --color-background: ##F8FBFF;  
+    --button1:#60A5FA;
+    --button1-hover:var(--color-blue-700);
+    --menu-item-hover:#E0F2FE;
 }
-
-/* Dark Mode */
 .dark {
-  --text-color:white;
-  --color-primary: #facc15; /* Dark mode primary color (Yellow) */
-  --color-background: #1e293b; /* Dark mode background */
-}
-
-/* Red Theme */
-.red {
-    --text-color:blue;
-    --color-primary: red; /* Dark mode primary color (Yellow) */
-    --color-background: yellow; /* Dark mode background */
-  }
+    --text-color:#E5E7EB;
+    --color-primary: #172A45;  
+    --color-background: #0A192F;
+    --button1:#F97316;
+    --button1-hover:#FDBA74;
+    --menu-item-hover:#52515e;
+    }
