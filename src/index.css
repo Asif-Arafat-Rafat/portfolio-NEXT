@@ -7,6 +7,13 @@
     --button1:#60A5FA;
     --button1-hover:var(--color-blue-700);
     --menu-item-hover:#E0F2FE;
+    --contribution-table-background: #F5F9FF;
+    --contribution-background: #E3F2FD;
+    --lowest-contribution: #BBDEFB;  
+    --medium-contribution: #64B5F6;
+    --high-contribution: #1E88E5;
+    --highest-contribution: #0D47A1;
+    --project-bar:black;
 }
 .dark {
     --text-color:#E5E7EB;
@@ -15,4 +22,12 @@
     --button1:#F97316;
     --button1-hover:#FDBA74;
     --menu-item-hover:#52515e;
+    --contribution-table-background: #121212;
+    --contribution-background: #212121;
+    --lowest-contribution: #FFCC80;  
+    --medium-contribution: #FFA726;
+    --high-contribution: #FB8C00;
+    --highest-contribution: #E65100;
+    --project-bar:white;
+
     }
