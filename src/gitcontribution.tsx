@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const GITHUB_USERNAME = import.meta.env.VITE_GITHUB_USERNAME; // Change this to your GitHub username
-const GITHUB_ACCESS_TOKEN = import.meta.env.VITE_GITHUB_ACCESS_TOKEN; // Use .env file for security
+const GITHUB_USERNAME = import.meta.env.VITE_GITHUB_USERNAME;  
+const GITHUB_ACCESS_TOKEN = import.meta.env.VITE_GITHUB_ACCESS_TOKEN; 
 let i=0;
 function gpday(dt:string,ind:number){
  
@@ -68,26 +68,23 @@ function GitHubContributions() {
   }, []);
  
 return (
-  <div className="bg-[var(--contribution-table-background)] flex justify-center items-center p-6">
-    <div className=" grid grid-rows-7 grid-flow-col gap-1.5">
-      {contributions.map((day: ContributionDay, index) => (
-  
-        <div
-          key={index} className={`w-3 h-3 rounded-sm ${( gpday(day.date.split("-")[2],index)?"ml-5":"")} `} style={{ backgroundColor: getColor(day.contributionCount),}}
-          title={`${day.date}: ${day.contributionCount} contributions ${index}`}
-        ></div>
-      ))}
+  <>
+    <div className="bg-[var(--contribution-table-background)] flex justify-center items-center p-6">
+      <div className=" grid grid-rows-7 grid-flow-col gap-1.5">
+        {contributions.map((day: ContributionDay, index) => (
+          <div key={index} className={`w-3 h-3 rounded-sm ${( gpday(day.date.split("-")[2],index)?"ml-5":"")} `} style={{ backgroundColor: getColor(day.contributionCount),}}  title={`${day.date}: ${day.contributionCount} contributions ${index}`}></div>
+        ))}
+      </div>
     </div>
-  </div>
+  </>
 );
 }
 
-// Function to set different shades based on contribution count
-function getColor(count: number) {
+ function getColor(count: number) {
   if (count === 0) return "var(--contribution-background)";
   if (count > 0 && count < 5) return "var(--lowest-contribution)";
   if (count < 10) return "var(--medium-contribution)";
   if (count < 20) return "var(--high-contribution)";
-  return "var(--highest-contribution)"; // Darkest
+  return "var(--highest-contribution)"; 
 }
 export default GitHubContributions;

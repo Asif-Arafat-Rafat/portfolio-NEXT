@@ -8,7 +8,7 @@ import { FaPhp } from "react-icons/fa6";
 import { BiLogoFlask } from "react-icons/bi";
 import { gsap } from "gsap";
 import { useEffect } from "react";
-
+ 
 const designations: string[] = [
   "a React Developer",
   "a Full Stack Developer",
@@ -16,7 +16,7 @@ const designations: string[] = [
   "an UI/UX Enthusiast",
 ];
 
-function HeroSection() {
+function HeroSection({setContactActivation}: {setContactActivation: ( ) => void}) {
   
   useEffect(()=>{
     gsap.to('#cursor',{
@@ -49,10 +49,12 @@ function HeroSection() {
           </div>
 
             <h1 className="text-5xl  ">Hi,I'm Asif Arafat <br /> I am <span className="text-blue-400">{designation}</span> <span className="blink" id="cursor">|</span> </h1>
-          <button className="mt-10 py-5 px-10 bg-[var(--button1)] rounded-4xl border-1 text-white hover:bg-[var(--button1-hover)]">Contact Me </button>
+          <button className="mt-10 py-5 px-10 bg-[var(--button1)] rounded-4xl border-1 text-white hover:bg-[var(--button1-hover)]" onClick={()=>{setContactActivation( )}}>Contact Me </button>
           </div>
-          <div className="w-110 h-110 bg-blue-100 rounded-[50%] flex items-center justify-center">
-            <div className="w-105 h-105 bg-blue-400 rounded-[50%]"></div>
+          <div className="w-110 h-110 bg-[var(--button1)] rounded-[50%] flex items-center justify-center flex-none">
+            <div className="w-105 h-105 bg-[var(--color-primary)] rounded-[50%] flex items-end justify-center"  >
+              <img src="./src/assets/herosecimg.png" alt="not found" className=" w-[1680px] h-auto rounded-b-[840px]"     style={{  }} />
+            </div>
           </div>
          </div>
         </>
