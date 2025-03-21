@@ -69,7 +69,7 @@ function GitHubContributions() {
  
 return (
   <>
-    <div className="bg-[var(--contribution-table-background)] flex justify-center items-center p-6">
+    <div className="bg-[var(--contribution-table-background)] flex justify-center items-center p-6 rounded-xl">
       <div className=" grid grid-rows-7 grid-flow-col gap-1.5">
         {contributions.map((day: ContributionDay, index) => (
           <div key={index} className={`w-3 h-3 rounded-sm ${( gpday(day.date.split("-")[2],index)?"ml-5":"")} `} style={{ backgroundColor: getColor(day.contributionCount),}}  title={`${day.date}: ${day.contributionCount} contributions ${index}`}></div>

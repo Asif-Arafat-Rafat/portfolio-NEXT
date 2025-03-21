@@ -15,7 +15,7 @@ interface navbarMenu{
     dropdownMenu?:dropdownMenu 
 }
 function Navbar(menu:navbarMenu){ 
-const [theme,setTheme]=useState("light");
+const [theme,setTheme]=useState("dark");
 useEffect(()=>{
     document.documentElement.className=theme;
 },[theme])
