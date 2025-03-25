@@ -17,9 +17,7 @@ function App() {
       </div>
       <Project/>
       <Achievement />
-
       </>
   )
 }
-
 export default App

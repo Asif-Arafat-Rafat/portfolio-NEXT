@@ -15,7 +15,7 @@
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
     "gsap": "^3.12.7",
-    "motion": "^12.5.0",
+    "motion": "^12.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-github-calendar": "^4.5.6",
