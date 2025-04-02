@@ -4,6 +4,7 @@ import { useState } from "react";
 import Achievement from "./achievement";
 import Project from "./project";
 import Contact from "./contact";
+import Animation from "./Animation";
 function App() {
   const [heroActive,setHeroActive]=useState(true);
   const [contactActive,setContactActive]=useState(false);
@@ -16,6 +17,7 @@ function App() {
          <Navbar options={[{name:"Home",link:"/"},{name:"About",link:"/about"},{name:"Contact",link:"/contact"},{name:"Project",link:"./project"}]} dropdownMenu={{option:"Services",options:[{name:"Web Development",link:"/services/web-development"},{name:"Mobile Development",link:"/services/mobile-development"}]}}/>
       </div>
       <Project/>
+      <Animation /> 
       <Achievement />
       </>
   )
