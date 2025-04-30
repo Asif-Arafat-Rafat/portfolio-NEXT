@@ -1,5 +1,5 @@
 import GitHubContributions from "./gitcontribution";
-import { AnimatedTestimonials } from "./components/ui/animated-testimonials";
+// import { AnimatedTestimonials } from "./components/ui/animated-testimonials";
 
 function Achievement() {
     return (
