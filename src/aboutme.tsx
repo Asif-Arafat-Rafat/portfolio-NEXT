@@ -1,4 +1,5 @@
 import { BackgroundGradientAnimation } from "./components/ui/gradient-bg";
+
 function AboutMe() {
   return (
     <> 
@@ -22,12 +23,12 @@ function AboutMe() {
             </p>
           </div>
             <div className="  w-[30%] border-5 mx-10 border-[var(--color-background)] rounded-2xl ">
-             <BackgroundGradientAnimation containerClassName="w-full h-full rounded-2xl flex items-center">
-                <div className="flex items-center justify-center w-full">
+              <BackgroundGradientAnimation containerClassName="w-full h-full rounded-2xl flex items-center">
+                <div className="flex items-center justify-center w-[100%] ">
                   <p>hello</p>
                 </div>
               </BackgroundGradientAnimation>
-             </div>
+              </div>
         </div>
       </div>
     </>

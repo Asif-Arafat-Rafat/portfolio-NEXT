@@ -44,7 +44,7 @@ function Animation() {
                 trigger: gsapRef.current, 
                 start:"top 50%",
                 scrub:true,// Element to trigger the scroll animation
-                markers: true,   
+                markers: false,   
                },
                 opacity: 1,   
               x: 0,          
