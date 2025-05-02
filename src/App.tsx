@@ -5,7 +5,8 @@ import Achievement from "./achievement";
 import Project from "./project";
 import Contact from "./contact";
 import Animation from "./Animation";
-import AboutMe  from "./aboutme";
+import AboutMe  from "./aboutme"; 
+import Filersection1 from "./filersection1";
 function App() {
   const [heroActive,setHeroActive]=useState(true);
   const [contactActive,setContactActive]=useState(false);
@@ -19,7 +20,8 @@ function App() {
       </div>
       <AboutMe />
       <Project/>
-      <Animation /> 
+      <Filersection1 />
+      {/* <Animation />  */}
       <Achievement />
       </>
   )

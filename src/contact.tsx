@@ -58,12 +58,12 @@ function Contact({ contactActivation }: { contactActivation: () => void }) {
             <div className="group hover:scale-[105%] transition-all duration-300">
               <a href="mailto:asif.arafat.rafat@gmail.com" className="flex items-center justify-center text-xl gap-3 text-[var(--text-color)] bg-[var(--color-primary)] p-4 rounded-lg shadow-md hover:bg-red-600"><ImMail4 className="text-3xl text-red-400" />Send an Email</a>
             </div>
-            <div className="group hover:scale-[105%] transition-all duration-300">
+            {/* <div className="group hover:scale-[105%] transition-all duration-300">
               <a href="https://www.fiverr.com/asif_arafat_rafat" className="flex items-center justify-center text-xl gap-3 text-[var(--text-color)] bg-[var(--color-primary)] p-4 rounded-lg shadow-md hover:bg-green-600">
                 <SiFiverr className="text-3xl text-[var(--color-background)] bg-green-400 rounded-[50%] " />
                 Visit my Fiverr
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

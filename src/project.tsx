@@ -18,7 +18,7 @@ function Projects() {
                     </div>
                     <div className="w-170 h-100 bg-[var(--contribution-background)] rounded-2xl p-5 border-4 border-[var(--color-primary)] text-[var(--text-color)]">
                     <h1 className="font-light p-2 text-2xl underline">Portfolio</h1>
-                    <p className="font-thin px-2">A dynamic personal portfolio website designed to showcase my skills, projects, and achievements in an interactive and visually appealing way. Built with clean, responsive design principles, it features a custom project gallery, skill highlights, and contact integration. Every section was crafted to reflect my passion for coding, problem-solving, and continuous learning. Deployed with scalability and performance in mind, this portfolio serves as both a resume and a living record of my growth as a developer </p>
+                    <p className="font-thin px-2 leading-[1.6]">A dynamic personal portfolio website designed to showcase my skills, projects, and achievements in an interactive and visually appealing way. Built with clean, responsive design principles, it features a custom project gallery, skill highlights, and contact integration. Every section was crafted to reflect my passion for coding, problem-solving, and continuous learning. Deployed with scalability and performance in mind, this portfolio serves as both a resume and a living record of my growth as a developer </p>
                     <div>
                         <p className="p-2 font-light text-2xl underline">Tools Used</p>
                         <div className="flex gap-2 justify-center items-center text-7xl">

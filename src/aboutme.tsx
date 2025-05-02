@@ -12,7 +12,7 @@ function AboutMe() {
               Hi, I'm Asif — a professional web developer with strong expertise in building robust and scalable web applications.
               I specialize in both frontend and backend development, and I'm highly skilled in a variety of frameworks and programming languages, including:
             </p>
-            <ul className="list-disc list-inside text-xl text-[var(--text-color)] mt-2 space-y-1">
+            <ul className="list-disc list-inside text-xl text-[var(--text-color)] mt-2 space-y-1 leading-loose">
               <li className="font-thin"><strong>Frontend:</strong> React.js, Next.js, Tailwind CSS, and modern JavaScript (ES6+)</li>
               <li className="font-thin"><strong>Backend:</strong> Flask, Django (Python), PHP, Laravel</li>
               <li className="font-thin"><strong>Database:</strong> MySQL, PostgreSQL, MongoDB</li>
